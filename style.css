@@ -7,4 +7,70 @@
 body {
     height: 100vh;
     font-family: 'Figtree', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4d04e;
+}
+.container {
+    background: #ffff;
+    max-width: 375px;
+    padding: 18px;
+    border-radius: 20px;
+    line-height: 1.5;
+    border: 2px solid black;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 17);
+}
+.banner__img {
+    border-radius: 20px;
+
+}
+.card__content {
+    margin-top: 10px;
+}
+span {
+    background-color: #f4d04e;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.opacity {
+    opacity: 50%;
+    padding-top: 6px;
+}
+.bold__text {
+    padding-top: 6px;
+    font-weight: 700;
+}
+.date {
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 6px;
+}
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.profile__img {
+    padding-right: 4px;
+    height: 50px;
+    width: 50px;
+}
+
+@media(max-width: 376px) {
+    .container {
+        padding: 15px;
+        border-radius: 20px;
+        line-height: 1.5;
+        margin: 20px 16px;
+    }
+    .banner__img {
+        width: 100%;
+        height: auto;
+    }
 }
